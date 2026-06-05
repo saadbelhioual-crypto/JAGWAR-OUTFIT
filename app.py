@@ -50,7 +50,7 @@ def fetch_and_process_image(url, size=None):
 # ===============================
 def fetch_player_info(uid):
     try:
-        url = f"https://otman-info.vercel.app/player-info?uid={uid}"
+        url = f"https://jagwar-info.vercel.app/player-info?uid={uid}"
         resp = requests.get(url, timeout=10)
         if resp.status_code == 200:
             return resp.json()

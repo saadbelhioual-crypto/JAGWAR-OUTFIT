@@ -64,7 +64,7 @@ def fetch_player_info(uid):
 #   LOAD FIXED BACKGROUND ONCE
 # ===============================
 BACKGROUND = fetch_and_process_image(
-    "https://iili.io/C1oXKEQ.th.png",
+    "https://iili.io/C1owzu9.png",
     size=(1024, 1024)
 )
 
